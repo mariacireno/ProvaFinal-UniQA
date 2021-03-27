@@ -13,11 +13,15 @@ public class BaseTest {
 
     public BaseTest() {}
 	
+		
 	//@BeforeAll
-	public static void inicializar() {
-		System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
-		browser = new ChromeDriver();
-	}
+			public static void inicializar() {
+				if(System.getProperty("os.name").equals("Linux")) System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
+				else System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+				
+				browser = new ChromeDriver();
+			}
+			
 	
 	//@BeforeEach
 	public void carregarPagina() {
@@ -25,12 +29,6 @@ public class BaseTest {
         browser.manage().window().maximize();
 	}
 
-	@Dado("que eu estou no site da accenture")
-    public void entrarNoSiteAccenture() {
-        inicializar();
-        carregarPagina();
-    }    
-    
 	
 	@AfterAll
 	public static void finalizar() {
