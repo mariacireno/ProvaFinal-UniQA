@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="io.cucumber.uniqa.RunCucumberTest" time="24.106" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="io.cucumber.uniqa.RunCucumberTest" time="21.104" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
@@ -60,6 +60,5 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Acessar o site da accenture e aceitar os cookies do LGPD" name="Aceitar o cookie LGPD" time="11.56"/>
-  <testcase classname="Acessar o site da accenture e aceitar os cookies do LGPD" name="Configuracoes do cookie" time="12.546"/>
+  <testcase classname="Sobre a accenture" name="Ver as caracteristicas da accenture" time="21.104"/>
 </testsuite>
