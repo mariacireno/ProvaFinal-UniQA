@@ -1,1 +1,4 @@
 /home/redepos/workspace/springboot/ProvaFinal-UniQA/src/test/java/io/cucumber/uniqa/RunCucumberTest.java
+/home/redepos/workspace/springboot/ProvaFinal-UniQA/src/test/java/io/cucumber/uniqa/SobreAccentureSteps.java
+/home/redepos/workspace/springboot/ProvaFinal-UniQA/src/test/java/io/cucumber/uniqa/CookiesSteps.java
+/home/redepos/workspace/springboot/ProvaFinal-UniQA/src/test/java/io/cucumber/uniqa/BaseTest.java
