@@ -11,6 +11,8 @@ import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Entao;
 
+import io.cucumber.datatable.DataTable;
+
 public class CookiesSteps extends BaseTest {
 
     @Dado("que eu estou no site da accenture")
@@ -27,8 +29,13 @@ public class CookiesSteps extends BaseTest {
 
     @Entao("deve fechar a caixa de informacao")
     public void deve_fechar_a_caixa_de_informacao() {
-    	 WebElement input = browser.findElement(By.cssSelector(".onetrust-close-btn-handler"));
-        input.click();
+    	fecharCookies();
+        finalizar();
+    }
+
+    @Entao("deve fechar a caixa de informacao depois continuar")
+    public void deve_fechar_a_caixa_de_informacao_e_continuar() {
+    	fecharCookies();
     }
     
     @Dado("clico em configuracoes de cookie")
@@ -44,37 +51,18 @@ public class CookiesSteps extends BaseTest {
     }
 
     @Entao("devo ver")
-    public void devo_ver(io.cucumber.datatable.DataTable dataTable) {
+    public void devo_ver(DataTable dataTable) {
     	
-    	List<WebElement> lista = browser.findElements(By.cssSelector(".benefits-card-number"));
-		for(WebElement e : lista) {
-			System.out.println(e.getText());
-			assertEquals(dataTable.toString(),e);
-		}
-		 
-    	/*List<WebElement> itens;
-		itens = browser.findElements( By.cssSelector(".w-dyn-itens") );
+    	List<WebElement> lista = browser.findElements(By.cssSelector(".ot-sdk-row"));
 
-		boolean [] comparison = new boolean[dataTable.height()];
+        WebElement e = lista.get(0);
 
-		for (int i = 0; i < itens.size(); i++) {
-			for(int j = 0; j < dataTable.height(); j++) {
-				if(dataTable.asList().get(j).matches(itens.get(i).getText())) comparison[j] = true;
-			}			
-		}
-
-		for(int j = 0; j < dataTable.height(); j++) {
-			assertEquals(true, comparison[j]);
-		}
-    	*/
-    	
-        // Write code here that turns the phrase above into concrete actions
-        // For automatic transformation, change DataTable to one of
-        // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-        // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-        // Double, Byte, Short, Long, BigInteger or BigDecimal.
-        //
-        // For other transformations you can register a DataTableType.
+        for(int i = 0; i < dataTable.height(); i++) {
+            assertEquals(true, e.getText().contains(dataTable.asList().get(i)));
+        }
+       
+        finalizar();		
+   	       
        
     }
 
