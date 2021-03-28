@@ -1,45 +1,49 @@
 
 package io.cucumber.uniqa;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
 public class BaseTest {
 
 	protected static WebDriver browser;
-
-    public BaseTest() {}
-	
-		
-	//@BeforeAll
-	public static void inicializar() {
+    
+	public static void inicializar(String string) {
 		if(System.getProperty("os.name").equals("Linux")) System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
 		else System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 		
 		browser = new ChromeDriver();
+
+		carregarPagina(string);
 	}
-			
 	
-	//@BeforeEach
-	public void carregarPagina() {
-		browser.get("https://www.accenture.com/br-pt");
+	private static void carregarPagina(String string) {
+		browser.get(string);
         browser.manage().window().maximize();
 	}
 
+	public static void fecharCookies() {
+		WebElement input =  BaseTest.elementoCSS(".onetrust-close-btn-handler");
+        input.click();
+	}
 	
-	@AfterAll
 	public static void finalizar() {
 		browser.quit();
 	}
-
-	public void fecharCookies() {
-		WebElement input = browser.findElement(By.cssSelector(".onetrust-close-btn-handler"));
-        input.click();
+	
+	public static WebElement elementoCSS(String seletor) {
+		return  browser.findElement(By.cssSelector(seletor));
 	}
+	
+	public static List<WebElement> elementosCSS(String seletor) {
+		return  browser.findElements(By.cssSelector(seletor));
+	}
+
+	
 }
 

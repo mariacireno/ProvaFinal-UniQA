@@ -4,19 +4,12 @@ import static org.junit.Assert.assertEquals;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 
 public class SobreAccentureSteps extends BaseTest {
-
-    // @Dado("que eu estou no site da accenture")
-    // public void entrarNoSiteAccenture() {
-    //     inicializar();
-    //     carregarPagina();
-    // }    
+   
 
 	@Dado("clico no menu sobre a accenture")
 	public void clico_no_menu_sobre_a_accenture() {  
