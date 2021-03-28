@@ -1,5 +1,5 @@
 # language: pt
-
+@ignore
 Funcionalidade: Acessar o site da accenture e aceitar os cookies do LGPD
 		
     Cenario: Aceitar o cookie LGPD

@@ -5,6 +5,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -30,6 +31,8 @@ public class BaseTest {
 		browser.get("https://www.accenture.com/br-pt");
         browser.manage().window().maximize();
 	}
+	
+	
 
 	
 	@AfterAll
@@ -38,8 +41,10 @@ public class BaseTest {
 	}
 
 	public void fecharCookies() {
-		WebElement input = browser.findElement(By.cssSelector(".onetrust-close-btn-handler"));
-        input.click();
+		WebElement input = browser.findElement(By.cssSelector("#onetrust-pc-btn-handler"));
+	       input.click();
+		WebElement input2 = browser.findElement(By.cssSelector(".onetrust-close-btn-handler"));
+        input2.click();
 	}
 }
 
