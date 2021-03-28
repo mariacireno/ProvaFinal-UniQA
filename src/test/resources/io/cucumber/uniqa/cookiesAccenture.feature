@@ -6,11 +6,12 @@ Funcionalidade: Acessar o site da accenture e aceitar os cookies do LGPD
         Dado que eu estou no site da accenture "https://www.accenture.com/br-pt"
         E aceito os termos LGPD
         Entao deve fechar a caixa de informacao
+        E finalizar
 
     Cenario: Configuracoes do cookie
         Dado que eu estou no site da accenture "https://www.accenture.com/br-pt"
         E aceito os termos LGPD
-        Entao deve fechar a caixa de informacao depois continuar
+        Entao deve fechar a caixa de informacao
         E clico em configuracoes de cookie
         Entao devo ver o item de "Sua privacidade"
         Entao devo ver 

@@ -28,7 +28,9 @@ public class BaseTest {
 	}
 
 	public static void fecharCookies() {
-		WebElement input =  BaseTest.elementoCSS(".onetrust-close-btn-handler");
+		WebElement input = elementoCSS("#onetrust-pc-btn-handler");
+       	input.click();
+		input = elementoCSS(".onetrust-close-btn-handler");
         input.click();
 	}
 	
@@ -37,11 +39,15 @@ public class BaseTest {
 	}
 	
 	public static WebElement elementoCSS(String seletor) {
-		return  browser.findElement(By.cssSelector(seletor));
+		return browser.findElement(By.cssSelector(seletor));
 	}
 	
 	public static List<WebElement> elementosCSS(String seletor) {
-		return  browser.findElements(By.cssSelector(seletor));
+		return browser.findElements(By.cssSelector(seletor));
+	}
+
+	public static String getCurrentUrl() {
+		return browser.getCurrentUrl();
 	}
 
 	
