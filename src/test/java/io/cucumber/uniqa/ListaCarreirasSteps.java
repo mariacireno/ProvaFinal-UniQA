@@ -22,7 +22,6 @@ public class ListaCarreirasSteps {
 		Thread.sleep(3000);
 		WebElement input = BaseTest.elementoCSS("a[data-analytics-link-name='vagas em tecnologia']");
 		input.click();
-	    
 	}
 	
 	@Entao("devo ver o destaque carreira em {string}")

@@ -8,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
 public class BaseTest {
 
 	protected static WebDriver browser;
@@ -49,7 +48,6 @@ public class BaseTest {
 	public static String getCurrentUrl() {
 		return browser.getCurrentUrl();
 	}
-
 	
 }
 
