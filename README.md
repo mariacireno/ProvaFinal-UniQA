@@ -2,8 +2,8 @@
 
 > Status do Projeto: Concluído :heavy_check_mark:<br>
 
-### Grupo UniQA<br>
-####Integrantes:<br>
+#### Grupo UniQA<br>
+##### Integrantes:<br>
 
 - Maria Cireno<br>
 - Maria Natália<br>
