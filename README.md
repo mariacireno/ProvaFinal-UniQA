@@ -12,13 +12,13 @@
 Acessar o site da Accenture e aceitar os cookies do LGPD<br>
 
 #### Cenário 1:<br>
-Aceitar o cookie LGPD<br>
+Aceitar o cookie LGPD:<br>
    - [x] Dado que eu estou no site da accenture<br>
    - [x] E aceito os termos LGPD<br>
    - [x] Então deve fechar a caixa de informação<br><br>
 
 #### Cenário 2:<br> 
-Configurações do cookie<br>
+Configurações do cookie:<br>
    - [x] Dado que eu estou no site da accenture<br>
    - [x] E aceito os termos LGPD<br>
    - [x] E clico em configurações de cookie<br>
@@ -32,7 +32,7 @@ Configurações do cookie<br>
 Acessar o site da Accenture a mostrar a lista de serviços<br>
 
 #### Cenário 3:
-Menu "Serviços" da Accenture<br>
+Menu "Serviços" da Accenture:<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E clico no menu serviços<br>
    - [x] Então devo ver os serviços abaixo<br>
@@ -60,7 +60,7 @@ Menu "Serviços" da Accenture<br>
          |-- Zero Based Budgeting (ZBB)<br>
 
 #### Cenário 4:<br> 
-Clicar no serviço Cloud<br>
+Clicar no serviço Cloud:<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E clico no menu Serviços<br>
    - [x] E clico no item do menu Cloud<br>
@@ -70,29 +70,31 @@ Clicar no serviço Cloud<br>
 Acessar a lista de carreiras da Accenture<br>
 
 #### Cenário 5:<br>
-Acessar o menu Carreiras e submenu Vagas de Tecnologia<br>
+Acessar o menu Carreiras e submenu Vagas de Tecnologia:<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E clico no menu Carreiras<br>
    - [x] E clico no item do menu Vagas em Tecnologia<br>
    - [x] Então devo ver o destaque em "Carreiras em Tecnologia"<br>
 
 #### Cenário 6:<br>
-Procurando uma vaga<br>
+Procurando uma vaga:<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E digito no campo de busca "Desenvolvedor"<br>
    - [x] E clico no botão Procurar<br>
    - [x] Então devo encontrar Vagas para Programadores<br>
----------------------------------------------------------------------------<br>
-###Caso de teste 4<br>
-###Sobre a Accenture<br>
+---------------------------------------------------------------------------
+### Caso de teste 4:<br>
+### Sobre a Accenture<br>
 
-<br>Cenario:</br> Ver as caracteristicas da Accenture<br>
-Dado que eu estou no site da accenture<br>
-E clico no menu Sobre a Accenture<br>
-E clico no item do menu Sobre a Accenture<br>
-Entao devo ver o destaque em "Nosso propósito"<br>
----------------------------------------------------------------------------<br>
-##Tecnologias utilizadas<br>
+#### Cenário 7:
+Ver as caracteristicas da Accenture<br>
+   - [x] Dado que eu estou no site da accenture<br>
+   - [x] E clico no menu Sobre a Accenture<br>
+   - [x] E clico no item do menu Sobre a Accenture<br>
+   - [x] Então devo ver o destaque em "Nosso propósito"<br>
+---------------------------------------------------------------------------
+## Tecnologias utilizadas:<br>
+
 :heavy_check_mark: <br>Java</br><br>
 Linguagem de programacao para desenvolvedores<br>
 
