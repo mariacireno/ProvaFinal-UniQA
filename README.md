@@ -29,35 +29,36 @@ Configurações do cookie<br>
    - [x] E devo ver "Cookies de Desempenho e Cookies Funcionais"<br>
    - [x] E devo ver "Cookies de Publicidade e Redes Sociais"<br>
 ---------------------------------------------------------------------------
-### Caso de teste 2:
+### Caso de teste 2:<br>
 Acessar o site da Accenture a mostrar a lista de serviços<br>
 
-<br>Cenario:</br> listar serviços da Accenture<br>
-Dado que eu estou no site da accenture<br>
-E clico no menu serviços<br>
-Entao devo ver os servicos abaixo<br>
-   - [x] Accenture Strategy
-   - [x] Application Services
-   - [x] Artificial Intelligence
-   - [x] Automation
-   - [x] Business Process Services
-   - [x] Change Management
-   - [x] Cloud
-   - [x] Customer Experience
-   - [x] Data & Analytics
-   - [x] Ecosystem Partners
-   - [x] Finance Consulting
-   - [x] Industry X
-   - [x] Infrastructure
-   - [x] Marketing
-   - [x] Mergers & Acquisitions (M&A)
-   - [X] Operating Models
-   - [X] Security
-   - [X] Supply Chain Management
-   - [X] Sustainability
-   - [X] Technology Consulting
-   - [X] Technology Innovation
-   - [X] Zero Based Budgeting (ZBB)
+#### Cenário 3:
+Menu "Serviços" da Accenture<br>
+   - [x] Dado que eu estou no site da Accenture<br>
+   - [x] E clico no menu serviços<br>
+   - [x] Então devo ver os servicos abaixo<br>
+         |-- Accenture Strategy
+         |-- Application Services
+         |-- Artificial Intelligence
+         |-- Automation
+         |-- Business Process Services
+         |-- Change Management
+         |-- Cloud
+         |-- Customer Experience
+         |-- Data & Analytics
+         |-- Ecosystem Partners
+         |-- Finance Consulting
+         |-- Industry X
+         |-- Infrastructure
+         |-- Marketing
+         |-- Mergers & Acquisitions (M&A)
+         |-- Operating Models
+         |-- Security
+         |-- Supply Chain Management
+         |-- Sustainability
+         |-- Technology Consulting
+         |-- Technology Innovation
+         |-- Zero Based Budgeting (ZBB)
 
 <br>Cenario:</br> Clicar no servico cloud
 Dado que eu estou no site da Accenture<br>
