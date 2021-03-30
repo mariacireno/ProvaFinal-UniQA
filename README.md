@@ -126,22 +126,23 @@ Fazendo download do Chrome Webdriver e colocar o arquivo descompactado da pasta 
 ##### Exemplo<br>
 
 ```bash
-cd driver >https://chromedriver.storage.googleapsis.com/89.0.4389.23/chrome_1inux64.zip
+cd driver https://chromedriver.storage.googleapsis.com/89.0.4389.23/chrome_1inux64.zip
 unzip chromedriver_linux64.zip
 rm -rf chromedriver_linux64.zip
 cd ../driver<br>
+```
 
 #### Limpando e validando o Maven Windows:
 ```bash
 mvnw.cmd clean<br>
 ```
+
 #### Limpando e validando Maven Unix:
 ```bash
 ./mvnw clean
 ```
 
 #### Executando teste no Unix:
-
 ```bash
 ./test.sh
 ```
