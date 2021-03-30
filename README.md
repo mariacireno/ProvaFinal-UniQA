@@ -1,4 +1,5 @@
-## *Descrição do desafio*: Criar uma aplicação Selenium com os seguintes casos de teste<br>
+## Descrição do desafio:<br> 
+Criar uma aplicação Selenium com os seguintes casos de teste<br>
 
 > Status do Projeto: Concluído :heavy_check_mark:<br>
 
