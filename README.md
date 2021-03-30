@@ -1,4 +1,7 @@
 ## *Descrição do desafio*: Criar uma aplicação Selenium com os seguintes casos de teste<br>
+
+> Status do Projeto: Concluído :heavy_check_mark:<br>
+
 ### Integrantes:<br>
 
 - Maria Cireno<br>
@@ -100,18 +103,16 @@ Ver as caracteristicas da Accenture<br>
    - [x] Cucumber: Framework responsável por traduzir uma linguagem humana em código Java<br>
    - [x] Selenium: Framework responsável por fazer a integracão do código Java com a linguagem Gurking (Cucumber), abrindo o browser fazendo o teste de comportamento<br>
 ---------------------------------------------------------------------------
-## Pré-requisitos<br>
-<ul>
-  <l1>aa</l1> Instalar o java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR<br>
-  <l1>aa</l1> Instalar jdk https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html<br>
-  <l1>aa</l1> Verificar se o JAVA_HOME está configurado em seu computador<br>
-  <l1>aa</l1> Layane Bastos<br>
-  <l1>aa</l1> Jessica Cordeiro<br>
-  <l1>aa</l1> Graziela Franzoni<br>
-</ul>      
-<l1>aa<l1</l1>Clone do projeto 
+### Pré-requisitos:<br>
+
+   - [x] Instalar o java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR<br>
+   - [x] Instalar jdk https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html<br>
+   - [x] Verificar se o JAVA_HOME está configurado no seu computador<br>
+---------------------------------------------------------------------------     
+### Clone do projeto:<br> 
+
 ```bash
-git clone https://github.com/mariacireno/ProvaFinal-UniQA.git<br>
+git clone > https://github.com/mariacireno/ProvaFinal-UniQA.git<br>
 ```
 <l1>aa</l1> Entrando na pasta do projeto<br>
 ```bash
