@@ -15,7 +15,7 @@
 ### Caso de teste 1<br>
 Acessar o site da Accenture e aceitar os cookies do LGPD<br>
 
-#### Cenário 1><br>
+#### Cenário 1:<br>
 Aceitar o cookie LGPD<br>
    - [x] Dado que eu estou no site da accenture<br>
    - [x] E aceito os termos LGPD<br>
