@@ -37,28 +37,28 @@ Menu "Serviços" da Accenture<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E clico no menu serviços<br>
    - [x] Então devo ver os servicos abaixo<br>
-         |-- Accenture Strategy
-         |-- Application Services
-         |-- Artificial Intelligence
-         |-- Automation
-         |-- Business Process Services
-         |-- Change Management
-         |-- Cloud
-         |-- Customer Experience
-         |-- Data & Analytics
-         |-- Ecosystem Partners
-         |-- Finance Consulting
-         |-- Industry X
-         |-- Infrastructure
-         |-- Marketing
-         |-- Mergers & Acquisitions (M&A)
-         |-- Operating Models
-         |-- Security
-         |-- Supply Chain Management
-         |-- Sustainability
-         |-- Technology Consulting
-         |-- Technology Innovation
-         |-- Zero Based Budgeting (ZBB)
+         |-- Accenture Strategy<br>
+         |-- Application Services<br>
+         |-- Artificial Intelligence<br>
+         |-- Automation<br>
+         |-- Business Process Services<br>
+         |-- Change Management<br>
+         |-- Cloud<br>
+         |-- Customer Experience<br>
+         |-- Data & Analytics<br>
+         |-- Ecosystem Partners<br>
+         |-- Finance Consulting<br>
+         |-- Industry X<br>
+         |-- Infrastructure<br>
+         |-- Marketing<br>
+         |-- Mergers & Acquisitions (M&A)<br>
+         |-- Operating Models<br>
+         |-- Security<br>
+         |-- Supply Chain Management<br>
+         |-- Sustainability<br>
+         |-- Technology Consulting<br>
+         |-- Technology Innovation<br>
+         |-- Zero Based Budgeting (ZBB)<br>
 
 <br>Cenario:</br> Clicar no servico cloud
 Dado que eu estou no site da Accenture<br>
