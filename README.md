@@ -158,20 +158,28 @@ driver<br>
       |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
   mvnw
   mvnw.cmd
-  pom.xml<br>
-  src<br>
-    |-- test<br>
-    |  |-- java<br>
-    |  |  |-- io<br>
-    |  |  |  |-- cucumber<br>
-    |  |  |  |  |-- danilo<br>
-    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test<br> 
-    |  |  |  |  |  |-- ValidarCpfStep.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação<br>
-    |  |-- resources<br>
-    |  |  |-- io<br>
-    |  |  |  |-- cucumber<br>
-    |  |  |  |  |-- danilo<br>
-    |  |  |  |  |  |-- validadorCpf.feature -- Gherkin com os cenários de teste de acordo com o meu cliente<br>
-  test.bat -- Arquivo para rodar teste no Windows<br>
-  test.sh -- Arquivo para rodar teste no Unix<br>
+  pom.xml
+  src
+    |-- test
+    |  |-- java
+    |  |  |-- io
+    |  |  |  |-- cucumber
+    |  |  |  |  |-- uniqa
+    |  |  |  |  |  |-- BaseTest.java -- Arquivo que configura a inicialização do Java test
+    |  |  |  |  |  |-- CommomSteps.java -- Arquivo que tem todos os passos em comum com os outros Steps        
+    |  |  |  |  |  |-- CookiesSteps.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação    
+    |  |  |  |  |  |-- ListaCarreiras.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação 
+    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test
+    |  |  |  |  |  |-- ServicosSteps.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
+    |  |  |  |  |  |-- SobreAccenture.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação
+    |  |-- resources
+    |  |  |-- io
+    |  |  |  |-- cucumber
+    |  |  |  |  |-- uniqa
+    |  |  |  |  |  |-- cookiesAccenture.feature -- Gherkin com os cenários de teste de acordo com o que o cliente solicitou
+    |  |  |  |  |  |-- listaCarreiras.feature -- Gherkin com os cenários de teste de acordo com o que o cliente solicitou
+    |  |  |  |  |  |-- servicosAccenture.feature -- Gherkin com os cenários de teste de acordo com o que o cliente solicitou
+    |  |  |  |  |  |-- sobreAccenture.feature -- Gherkin com os cenários de teste de acordo com o que o cliente solicitou          
+  test.bat -- Arquivo para rodar teste no Windows
+  test.sh -- Arquivo para rodar teste no Unix
   </pre>
