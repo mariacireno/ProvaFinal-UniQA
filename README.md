@@ -1,5 +1,5 @@
 ## *Descrição do desafio*: Criar uma aplicação Selenium com os seguintes casos de teste<br>
-## Integrantes:<br>
+### Integrantes:<br>
 
 - Maria Cireno<br>
 - Maria Natália<br>
@@ -66,20 +66,22 @@ Clicar no serviço Cloud<br>
    - [x] E clico no item do menu Cloud<br>
    - [x] Então devo encontrar o título "Servicos de Cloud"<br>
 ---------------------------------------------------------------------------
-###Caso de teste 3<br>
-###Acessar a lista de carreiras da Accenture<br><br>
+### Caso de teste 3:<br>
+Acessar a lista de carreiras da Accenture<br>
 
-<brCenario:</br> Acessar o item de vagas de tecnologia<br>
-Dado que eu estou no site da Accenture<br>
-E clico no menu carreiras<br>
-E clico no item do menu vagas em tecnologia<br>
-Entao devo ver o destaque em "Carreiras em Tecnologia"<br>
+#### Cenário 5:<br>
+Acessar o menu Carreiras e submenu Vagas de Tecnologia<br>
+   - [x] Dado que eu estou no site da Accenture<br>
+   - [x] E clico no menu Carreiras<br>
+   - [x] E clico no item do menu Vagas em Tecnologia<br>
+   - [x] Então devo ver o destaque em "Carreiras em Tecnologia"<br>
 
-<br>Cenario:</br> Procurando uma vaga<br>
-Dado que eu estou no site da Accenture<br>
-E digito no campo de busca "Desenvolvedor"<br>
-E clico no botao procurar<br>
-Entao devo encontrar vagas para programadores<br>
+#### Cenário 6:<br>
+Procurando uma vaga<br>
+   - [x] Dado que eu estou no site da Accenture<br>
+   - [x] E digito no campo de busca "Desenvolvedor"<br>
+   - [x] E clico no botão Procurar<br>
+   - [x] Então devo encontrar Vagas para Programadores<br>
 ---------------------------------------------------------------------------<br>
 ###Caso de teste 4<br>
 ###Sobre a Accenture<br>
