@@ -1,5 +1,5 @@
 ## *Descrição do desafio*: Criar uma aplicação Selenium com os seguintes casos de teste<br>
-# Integrantes:<br>
+## Integrantes:<br>
 
 - Maria Cireno<br>
 - Maria Natália<br>
