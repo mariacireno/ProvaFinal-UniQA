@@ -93,9 +93,9 @@ Ver as caracteristicas da Accenture<br>
    - [x] E clico no item do menu Sobre a Accenture<br>
    - [x] Então devo ver o destaque em "Nosso propósito"<br>
 ---------------------------------------------------------------------------
-## Tecnologias utilizadas:<br>
+### Tecnologias utilizadas:<br>
 
-:heavy_check_mark: <br>Java:</br> Linguagem de programacao para desenvolvedores<br>
+:heavy_check_mark: ####Java:<br> Linguagem de programacão para desenvolvedores<br>
 :heavy_check_mark: <br>Maven:</br> Gerenciador de dependencias para o Java<br>
 :heavy_check_mark: <br>Cucumber:</br> Framework responsável por traduzir uma linguagem humana em código Java<br>
 :heavy_check_mark: <br>Selenium:</br> Framework responsável por fazer a integracão do código Java com a linguagem Gurking (Cucumber), abrindo o browser fazendo o teste de comportamento<br>
