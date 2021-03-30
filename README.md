@@ -152,9 +152,9 @@ test.bat
 ```
 ---------------------------------------------------------------------------
 ## Estrutura de arquivos:
+```bash
 <pre>
 driver<br> 
-```bash
       |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
   mvnw
   mvnw.cmd
@@ -184,7 +184,6 @@ driver<br>
   mvnw.cmd -- Arquivo de como deve ser feita a configuração do Maven
   pom.xml -- Arquivo com todas as dependências utilzadas no projeto
   README.md -- Arquivo com a documentação do projeto
-         
   test.bat -- Arquivo para rodar teste no Windows
   test.sh -- Arquivo para rodar teste no Unix
   </pre>
