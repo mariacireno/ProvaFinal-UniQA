@@ -1,24 +1,22 @@
-# *Descrição do desafio*<br><br>
+## *Descrição do desafio*<br>
 Integrantes:<br>
 
 - Maria Cireno<br>
-- Natalia<br>
+- Maria Natália<br>
 - Fernanda Monique<br>
 - Layane Bastos<br>
 - Jessica Cordeiro<br>
 - Graziela Franzoni<br>
-     
 ---------------------------------------------------------------------------<br>
 ### Criar uma aplicação Selenium com os seguintes casos de teste:<br>
-#### Caso de teste 1<br>
-##### Acessar o site da accenture e aceitar os cookies do LGPD<br>
+#### Caso de teste 1: Acessar o site da accenture e aceitar os cookies do LGPD<br>
 
 <br>Cenário 1:</br> Aceitar o cookie LGPD<br>
 Dado que eu estou no site da accenture<br>
 E aceito os termos LGPD<br>
 Então deve fechar a caixa de informação<br><br>
 
-<br>Cenário 2</br>: Configurações do cookie<br>
+<br>Cenário 2:</br> Configurações do cookie<br>
 Dado que eu estou no site da accenture<br>
 E aceito os termos LGPD<br>
 E clico em configurações de cookie<br>
