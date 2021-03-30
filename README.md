@@ -36,7 +36,7 @@ Acessar o site da Accenture a mostrar a lista de serviços<br>
 Menu "Serviços" da Accenture<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E clico no menu serviços<br>
-   - [x] Então devo ver os servicos abaixo<br>
+   - [x] Então devo ver os serviços abaixo<br>
          |-- Accenture Strategy<br>
          |-- Application Services<br>
          |-- Artificial Intelligence<br>
@@ -60,12 +60,13 @@ Menu "Serviços" da Accenture<br>
          |-- Technology Innovation<br>
          |-- Zero Based Budgeting (ZBB)<br>
 
-<br>Cenario:</br> Clicar no servico cloud
-Dado que eu estou no site da Accenture<br>
-E clico no menu servicos<br>
-E clico no item do menu cloud<br>
-Entao devo encontrar o titulo "Servicos de Cloud"<br>
----------------------------------------------------------------------------<br>
+#### Cenário 4:<br> 
+Clicar no serviço Cloud<br>
+   - [x] Dado que eu estou no site da Accenture<br>
+   - [x] E clico no menu Serviços<br>
+   - [x] E clico no item do menu Cloud<br>
+   - [x] Então devo encontrar o título "Servicos de Cloud"<br>
+---------------------------------------------------------------------------
 ###Caso de teste 3<br>
 ###Acessar a lista de carreiras da Accenture<br><br>
 
