@@ -112,36 +112,43 @@ Ver as caracteristicas da Accenture<br>
 #### Clone do projeto:<br> 
 
 ```bash
-git clone > https://github.com/mariacireno/ProvaFinal-UniQA.git<br>
+git clone > https://github.com/mariacireno/ProvaFinal-UniQA.git
 ```
 #### Entrando na pasta do projeto<br>
 
 ```bash
-cd ProvaFinal-UniQA-master<br>
+cd ProvaFinal-UniQA-master
 ```
 
 #### Configurando Selenium no seu computador<br>
 Fazendo download do Chrome Webdriver e colocar o arquivo descompactado da pasta driver na raiz do projeto<br>
-> https://chromedriver.chromium.org/downloads<br>
+>https://chromedriver.chromium.org/downloads<br>
 ##### Exemplo<br>
 
 ```bash
-cd driver https://chromedriver.storage.googleapsis.com/89.0.4389.23/chrome_1inux64.zip
+cd driver >https://chromedriver.storage.googleapsis.com/89.0.4389.23/chrome_1inux64.zip
 unzip chromedriver_linux64.zip
 rm -rf chromedriver_linux64.zip
 cd ../driver<br>
-<l1>aa</l1> Limpando e validando o Maven Windows
+
+#### Limpando e validando o Maven Windows:
 ```bash
 mvnw.cmd clean<br>
-<l1>aa</l1> Limpando e validando Maven Unix
+```
+#### Limpando e validando Maven Unix:
 ```bash
 ./mvnw clean
-<l1>aa</l1> Executando teste no Unix
+```
+
+#### Executando teste no Unix:
+
 ```bash
 ./test.sh
-<l1>aa</l1> Executando teste no Windows
+```
+#### Executando teste no Windows:
 ```bash
 test.bat
+```
 ---------------------------------------------------------------------------
 ##Estrutura de arquivos
 <pre>
