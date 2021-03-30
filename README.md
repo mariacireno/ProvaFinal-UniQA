@@ -9,9 +9,11 @@ Integrantes:<br>
 - Graziela Franzoni<br>
 ---------------------------------------------------------------------------
 ### Criar uma aplicação Selenium com os seguintes casos de teste:<br>
-#### <br>Caso de teste 1:</br> Acessar o site da accenture e aceitar os cookies do LGPD<br>
+#### Caso de teste 1:<br>
+Acessar o site da accenture e aceitar os cookies do LGPD<br>
 
-### <br>Cenário 1:</br> Aceitar o cookie LGPD<br>
+### Cenário 1:<br>
+Aceitar o cookie LGPD<br>
 Dado que eu estou no site da accenture<br>
 E aceito os termos LGPD<br>
 Então deve fechar a caixa de informação<br><br>
