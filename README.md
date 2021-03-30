@@ -156,8 +156,8 @@ test.bat
 driver<br> 
 ```bash
       |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
-  mvnw,
-  mvnw.cmd,
+  mvnw
+  mvnw.cmd
   pom.xml<br>
   src<br>
     |-- test<br>
