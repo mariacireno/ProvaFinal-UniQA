@@ -154,11 +154,8 @@ test.bat
 ## Estrutura de arquivos:
 ```bash
 <pre>
-driver<br> 
-      |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
-  mvnw
-  mvnw.cmd
-  pom.xml
+driver
+    |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
   src
     |-- test
     |  |-- java
