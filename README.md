@@ -10,7 +10,7 @@ Integrantes:<br>
 ---------------------------------------------------------------------------
 ### Criar uma aplicação Selenium com os seguintes casos de teste:<br>
 ### Caso de teste 1:<br>
-Acessar o site da accenture e aceitar os cookies do LGPD<br>
+Acessar o site da Accenture e aceitar os cookies do LGPD<br>
 
 #### Cenário 1:<br>
 Aceitar o cookie LGPD<br>
@@ -28,9 +28,9 @@ Configurações do cookie<br>
    - [x] E devo ver "Cookies Analíticos de Primeira Parte"<br>
    - [x] E devo ver "Cookies de Desempenho e Cookies Funcionais"<br>
    - [x] E devo ver "Cookies de Publicidade e Redes Sociais"<br>
-
-###Caso de teste 2
-###Acessar o site da accenture a mostrar a lista de serviços<br>
+---------------------------------------------------------------------------
+### Caso de teste 2:
+Acessar o site da Accenture a mostrar a lista de serviços<br>
 
 <br>Cenario:</br> listar serviços da Accenture<br>
 Dado que eu estou no site da accenture<br>
