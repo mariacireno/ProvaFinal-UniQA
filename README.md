@@ -151,11 +151,11 @@ mvnw.cmd clean<br>
 test.bat
 ```
 ---------------------------------------------------------------------------
-##Estrutura de arquivos
+## Estrutura de arquivos:
 <pre>
 driver<br> 
 ```bash
-      |-- chromedriver -- Este eh o arquivo do selenium webdriver, substitua este arquivo com a versao da sua maquina
+      |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
   mvnw<br>
   mvnw.cmd<br>
   pom.xml<br>
