@@ -1,24 +1,24 @@
-#*Descricao do desafio*
+#*Descriçãoo do desafio*<br>br>
 Integrantes:<br>
-<ul>
-  <l1>aa</l1> Maria Cireno<br>
-  <l1>aa</l1> Natalia<br>
-  <l1>aa</l1> Fernanda Monique<br>
-  <l1>aa</l1> Layane Bastos<br>
-  <l1>aa</l1> Jessica Cordeiro<br>
-  <l1>aa</l1> Graziela Franzoni<br>
-</ul>      
----------------------------------------------------------------------------
-##Criar uma aplicação Selenium com os seguintes casos de teste
-###Caso de teste 1
-####Acessar o site da accenture e aceitar os cookies do LGPD<br>
 
-<br>Cenario:</br> Aceitar o cookie LGPD<br>
+- Maria Cireno<br>
+- Natalia<br>
+- Fernanda Monique<br>
+- Layane Bastos<br>
+- Jessica Cordeiro<br>
+- Graziela Franzoni<br>
+     
+---------------------------------------------------------------------------<br>
+###Criar uma aplicação Selenium com os seguintes casos de teste:<br>
+####Caso de teste 1<br>
+#####Acessar o site da accenture e aceitar os cookies do LGPD<br>
+
+<br>Cenário 1:</br> Aceitar o cookie LGPD<br>
 Dado que eu estou no site da accenture<br>
 E aceito os termos LGPD<br>
-Então deve fechar a caixa de informação<br>
+Então deve fechar a caixa de informação<br><br>
 
-<br>Cenario</br>: Configurações do cookie<br>
+<br>Cenário 2</br>: Configurações do cookie<br>
 Dado que eu estou no site da accenture<br>
 E aceito os termos LGPD<br>
 E clico em configurações de cookie<br>
@@ -63,46 +63,46 @@ Dado que eu estou no site da Accenture<br>
 E clico no menu servicos<br>
 E clico no item do menu cloud<br>
 Entao devo encontrar o titulo "Servicos de Cloud"<br>
----------------------------------------------------------------------------
-###Caso de teste 3
-###Acessar a lista de carreiras da Accenture
+---------------------------------------------------------------------------<br>
+###Caso de teste 3<br>
+###Acessar a lista de carreiras da Accenture<br><br>
 
-<brCenario:</br> Acessar o item de vagas de tecnologia
+<brCenario:</br> Acessar o item de vagas de tecnologia<br>
 Dado que eu estou no site da Accenture<br>
 E clico no menu carreiras<br>
 E clico no item do menu vagas em tecnologia<br>
 Entao devo ver o destaque em "Carreiras em Tecnologia"<br>
 
-<br>Cenario:</br. Procurando uma vaga
+<br>Cenario:</br> Procurando uma vaga<br>
 Dado que eu estou no site da Accenture<br>
 E digito no campo de busca "Desenvolvedor"<br>
 E clico no botao procurar<br>
 Entao devo encontrar vagas para programadores<br>
----------------------------------------------------------------------------
-###Caso de teste 4
-###Sobre a Accenture
+---------------------------------------------------------------------------<br>
+###Caso de teste 4<br>
+###Sobre a Accenture<br>
 
-<br>Cenario:</br> Ver as caracteristicas da Accenture
+<br>Cenario:</br> Ver as caracteristicas da Accenture<br>
 Dado que eu estou no site da accenture<br>
 E clico no menu Sobre a Accenture<br>
 E clico no item do menu Sobre a Accenture<br>
 Entao devo ver o destaque em "Nosso propósito"<br>
----------------------------------------------------------------------------
-##Tecnologias utilizadas
+---------------------------------------------------------------------------<br>
+##Tecnologias utilizadas<br>
 :heavy_check_mark: <br>Java</br><br>
-Linguagem de programacao para desenvolvedores
+Linguagem de programacao para desenvolvedores<br>
 
 :heavy_check_mark: <br>Maven</br><br>
-Gerenciador de dependencias para o Java
+Gerenciador de dependencias para o Java<br>
 
 :heavy_check_mark: <br>Cucumber</br><br>
-Framework responsavel por traduzir uma linguagem humana em codigo Java
+Framework responsavel por traduzir uma linguagem humana em codigo Java<br>
 
 :heavy_check_mark: <br>Selenium</br><br>
 Framework responsavel por fazer a integracao do codigo Java com a linguagem Gurking (Cucumber) abrindo o browser fazendo o teste de comportamento<br>
 ---------------------------------------------------------------------------
 ##Como utilizar<br>
-##Pre-requisitos
+##Pre-requisitos<br>
 <ul>
   <l1>aa</l1> Instalar o java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR<br>
   <l1>aa</l1> Instalar jdk https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html<br>
