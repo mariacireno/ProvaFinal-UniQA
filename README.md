@@ -156,7 +156,7 @@ test.bat
 <pre>
 driver
     |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina
-  src
+src
     |-- test
     |  |-- java
     |  |  |-- io
@@ -183,5 +183,5 @@ driver
   README.md -- Arquivo com a documentação do projeto
   test.bat -- Arquivo para rodar teste no Windows
   test.sh -- Arquivo para rodar teste no Unix
-  </pre>
+  <pre/>
 ```  
