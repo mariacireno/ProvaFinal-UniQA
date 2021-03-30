@@ -13,21 +13,21 @@ Integrantes:<br>
 Acessar o site da accenture e aceitar os cookies do LGPD<br>
 
 #### Cenário 1:<br>
-   - [x] Aceitar o cookie LGPD<br>
+Aceitar o cookie LGPD<br>
    - [x] Dado que eu estou no site da accenture<br>
    - [x] E aceito os termos LGPD<br>
    - [x] Então deve fechar a caixa de informação<br><br>
 
 #### Cenário 2:<br> 
 Configurações do cookie<br>
-Dado que eu estou no site da accenture<br>
-E aceito os termos LGPD<br>
-E clico em configurações de cookie<br>
-Então devo ver o item de "sua privacidade"<br>
-E devo ver "Cookies estritamente necessárias"<br>
-E devo ver "Cookies Analíticos de Primeira Parte"<br>
-E devo ver "Cookies de Desempenho e Cookies Funcionais"<br>
-E devo ver "Cookies de Publicidade e Redes Sociais"<br>
+   - [x] Dado que eu estou no site da accenture<br>
+   - [x] E aceito os termos LGPD<br>
+   - [x] E clico em configurações de cookie<br>
+   - [x] Então devo ver o item de "sua privacidade"<br>
+   - [x] E devo ver "Cookies estritamente necessárias"<br>
+   - [x] E devo ver "Cookies Analíticos de Primeira Parte"<br>
+   - [x] E devo ver "Cookies de Desempenho e Cookies Funcionais"<br>
+   - [x] E devo ver "Cookies de Publicidade e Redes Sociais"<br>
 
 ###Caso de teste 2
 ###Acessar o site da accenture a mostrar a lista de serviços<br>
