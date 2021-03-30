@@ -13,10 +13,10 @@ Integrantes:<br>
 Acessar o site da accenture e aceitar os cookies do LGPD<br>
 
 #### Cenário 1:<br>
-Aceitar o cookie LGPD<br>
-Dado que eu estou no site da accenture<br>
-E aceito os termos LGPD<br>
-Então deve fechar a caixa de informação<br><br>
+   - [x] Aceitar o cookie LGPD<br>
+   - [x] Dado que eu estou no site da accenture<br>
+   - [x] E aceito os termos LGPD<br>
+   - [x] Então deve fechar a caixa de informação<br><br>
 
 #### Cenário 2:<br> 
 Configurações do cookie<br>
