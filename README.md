@@ -1,4 +1,4 @@
-#*Descriçãoo do desafio*<br>br>
+# *Descrição do desafio*<br><br>
 Integrantes:<br>
 
 - Maria Cireno<br>
@@ -9,9 +9,9 @@ Integrantes:<br>
 - Graziela Franzoni<br>
      
 ---------------------------------------------------------------------------<br>
-###Criar uma aplicação Selenium com os seguintes casos de teste:<br>
-####Caso de teste 1<br>
-#####Acessar o site da accenture e aceitar os cookies do LGPD<br>
+### Criar uma aplicação Selenium com os seguintes casos de teste:<br>
+#### Caso de teste 1<br>
+##### Acessar o site da accenture e aceitar os cookies do LGPD<br>
 
 <br>Cenário 1:</br> Aceitar o cookie LGPD<br>
 Dado que eu estou no site da accenture<br>
