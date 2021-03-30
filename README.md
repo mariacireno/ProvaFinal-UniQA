@@ -105,22 +105,26 @@ Ver as caracteristicas da Accenture<br>
 ---------------------------------------------------------------------------
 ### Pré-requisitos:<br>
 
-   - [x] Instalar o java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR<br>
-   - [x] Instalar jdk https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html<br>
+   - [x] Instalar o Java: https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR<br>
+   - [x] Instalar JDK https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html<br>
    - [x] Verificar se o JAVA_HOME está configurado no seu computador<br>
 ---------------------------------------------------------------------------     
-### Clone do projeto:<br> 
+#### Clone do projeto:<br> 
 
 ```bash
 git clone > https://github.com/mariacireno/ProvaFinal-UniQA.git<br>
 ```
-<l1>aa</l1> Entrando na pasta do projeto<br>
+#### Entrando na pasta do projeto<br>
+
 ```bash
 cd ProvaFinal-UniQA-master<br>
-<l1>aa</l1> Configurando Selenium em seu computador
+```
+
+#### Configurando Selenium no seu computador<br>
 Fazendo download do Chrome Webdriver e colocar o arquivo descompactado da pasta driver na raiz do projeto<br>
-https://chromedriver.chromium.org/downloads<br>
-<br>Exemplo</br><br>
+> https://chromedriver.chromium.org/downloads<br>
+##### Exemplo<br>
+
 ```bash
 cd driver https://chromedriver.storage.googleapsis.com/89.0.4389.23/chrome_1inux64.zip
 unzip chromedriver_linux64.zip
