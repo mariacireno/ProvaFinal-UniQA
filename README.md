@@ -95,14 +95,10 @@ Ver as caracteristicas da Accenture<br>
 ---------------------------------------------------------------------------
 ### Tecnologias utilizadas:<br>
 
-:fast_forward: Java:<br>
-Linguagem de programacão para desenvolvedores<br>
-:fast_forward: Maven:<br>
-Gerenciador de dependencias para o Java<br>
-:fast_forward: Cucumber:<br>
-Framework responsável por traduzir uma linguagem humana em código Java<br>
-:fast_forward: Selenium:<br>
-Framework responsável por fazer a integracão do código Java com a linguagem Gurking (Cucumber), abrindo o browser fazendo o teste de comportamento<br>
+   - [x] Java: Linguagem de programacão para desenvolvedores<br>
+   - [x] Maven: Gerenciador de dependencias para o Java<br>
+   - [x] Cucumber: Framework responsável por traduzir uma linguagem humana em código Java<br>
+   - [x] Selenium: Framework responsável por fazer a integracão do código Java com a linguagem Gurking (Cucumber), abrindo o browser fazendo o teste de comportamento<br>
 ---------------------------------------------------------------------------
 ## Pré-requisitos<br>
 <ul>
