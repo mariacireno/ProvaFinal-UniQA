@@ -1,5 +1,6 @@
-## *Descrição do desafio*<br>
-Integrantes:<br>
+## *Descrição do desafio*:<br>
+Criar uma aplicação Selenium com os seguintes casos de teste<br>
+#Integrantes:<br>
 
 - Maria Cireno<br>
 - Maria Natália<br>
@@ -8,7 +9,6 @@ Integrantes:<br>
 - Jessica Cordeiro<br>
 - Graziela Franzoni<br>
 ---------------------------------------------------------------------------
-### Criar uma aplicação Selenium com os seguintes casos de teste:<br>
 ### Caso de teste 1:<br>
 Acessar o site da Accenture e aceitar os cookies do LGPD<br>
 
