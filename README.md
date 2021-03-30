@@ -2,7 +2,8 @@
 
 > Status do Projeto: Concluído :heavy_check_mark:<br>
 
-### Integrantes:<br>
+### Grupo UniQA<br>
+####Integrantes:<br>
 
 - Maria Cireno<br>
 - Maria Natália<br>
@@ -14,14 +15,14 @@
 ### Caso de teste 1<br>
 Acessar o site da Accenture e aceitar os cookies do LGPD<br>
 
-#### Cenário 1<br>
-Aceitar o cookie LGPD:<br>
+#### Cenário 1><br>
+Aceitar o cookie LGPD<br>
    - [x] Dado que eu estou no site da accenture<br>
    - [x] E aceito os termos LGPD<br>
    - [x] Então deve fechar a caixa de informação<br><br>
 
-#### Cenário 2<br> 
-Configurações do cookie:<br>
+#### Cenário 2:<br> 
+Configurações do cookie<br>
    - [x] Dado que eu estou no site da accenture<br>
    - [x] E aceito os termos LGPD<br>
    - [x] E clico em configurações de cookie<br>
@@ -32,10 +33,10 @@ Configurações do cookie:<br>
    - [x] E devo ver "Cookies de Publicidade e Redes Sociais"<br>
 ---------------------------------------------------------------------------
 ### Caso de teste 2<br>
-Acessar o site da Accenture a mostrar a lista de serviços<br>
+Acessar o site da Accenture a mostrar o menu Serviços<br>
 
-#### Cenário 3<br>
-Menu "Serviços" da Accenture:<br>
+#### Cenário 3:<br>
+Menu "Serviços" da Accenture<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E clico no menu serviços<br>
    - [x] Então devo ver os serviços abaixo<br>
@@ -62,7 +63,7 @@ Menu "Serviços" da Accenture:<br>
          |-- Technology Innovation<br>
          |-- Zero Based Budgeting (ZBB)<br>
 
-#### Cenário 4<br> 
+#### Cenário 4:<br> 
 Clicar no serviço Cloud:<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E clico no menu Serviços<br>
@@ -72,14 +73,14 @@ Clicar no serviço Cloud:<br>
 ### Caso de teste 3<br>
 Acessar menu Carreiras da Accenture<br>
 
-#### Cenário 5<br>
-Acessar o menu Carreiras e submenu Vagas de Tecnologia:<br>
+#### Cenário 5:<br>
+Acessar o menu Carreiras e submenu Vagas de Tecnologia<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E clico no menu Carreiras<br>
    - [x] E clico no item do menu Vagas em Tecnologia<br>
    - [x] Então devo ver o destaque em "Carreiras em Tecnologia"<br>
 
-#### Cenário 6<br>
+#### Cenário 6:<br>
 Procurando uma vaga:<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E digito no campo de busca "Desenvolvedor"<br>
@@ -89,7 +90,7 @@ Procurando uma vaga:<br>
 ### Caso de teste 4<br>
 Sobre a Accenture<br>
 
-#### Cenário 7
+#### Cenário 7:<br>
 Ver as caracteristicas da Accenture<br>
    - [x] Dado que eu estou no site da accenture<br>
    - [x] E clico no menu Sobre a Accenture<br>
