@@ -87,7 +87,7 @@ Procurando uma vaga:<br>
    - [x] Então devo encontrar Vagas para Programadores<br>
 ---------------------------------------------------------------------------
 ### Caso de teste 4<br>
-### Sobre a Accenture<br>
+Sobre a Accenture<br>
 
 #### Cenário 7
 Ver as caracteristicas da Accenture<br>
