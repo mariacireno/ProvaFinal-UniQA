@@ -1,5 +1,5 @@
 # language: pt
-
+@ignore
 Funcionalidade: Acessar o site da accenture a mostrar a lista de servicos
     
     Cenario: listar servicos da Accenture

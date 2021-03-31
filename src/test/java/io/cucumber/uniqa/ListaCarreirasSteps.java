@@ -1,6 +1,7 @@
 package io.cucumber.uniqa;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 import org.openqa.selenium.WebElement;
 
@@ -59,7 +60,36 @@ public class ListaCarreirasSteps {
 		Thread.sleep(3000);
         WebElement input = BaseTest.elementoCSS("#search-form-label");
         input.sendKeys(string);
+    }	
+	
+
+	@Dado("clico no item procure por vagas")
+    public void clico_no_item_procure_por_vagas() throws InterruptedException {
+		Thread.sleep(3000);
+        WebElement input = BaseTest.elementoCSS("span[class='second-secondary-item col-sm-3 secondary-hyperlink search-jobslink']");
+        input.click();
     }
+
+	@Dado("digito no campo para buscar {string}")
+    public void digito_no_campo_para_buscar(String string) throws InterruptedException {
+		Thread.sleep(3000);
+        WebElement input = BaseTest.elementoCSS("#job-search-hero-bar");
+        input.sendKeys(string);
+    }
+
+	@Dado("clico no botao buscar")
+	public void clico_no_botao_buscar() {
+		WebElement input = BaseTest.elementoCSS("button[data-analytics-link-name='search']");
+        input.click();
+
+	}
+
+	@Entao("devo encontrar vagas para programadores pelo menu")
+	public void devo_encontrar_vagas_para_programadores_pelo_menu() throws InterruptedException {
+		Thread.sleep(3000);		
+		assertNotEquals("(0)", BaseTest.elementoCSS("h2.section-title > span.search-results-count.total-jobs").getText());
+		BaseTest.finalizar();
+	}
 
 
 }

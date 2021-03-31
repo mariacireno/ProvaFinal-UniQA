@@ -19,18 +19,22 @@ Acessar o site da Accenture e aceitar os cookies do LGPD<br>
 Aceitar o cookie LGPD<br>
    - [x] Dado que eu estou no site da accenture<br>
    - [x] E aceito os termos LGPD<br>
-   - [x] Então deve fechar a caixa de informação<br><br>
+   - [x] Então deve fechar a caixa de informação<br>
+   - [x] E finalizar<br>
 
 #### Cenário 2:<br> 
 Configurações do cookie<br>
-   - [x] Dado que eu estou no site da accenture<br>
+   - [x] Dado que eu estou no site da accenture "https://www.accenture.com/br-pt"<br>
    - [x] E aceito os termos LGPD<br>
-   - [x] E clico em configurações de cookie<br>
-   - [x] Então devo ver o item de "sua privacidade"<br>
-   - [x] E devo ver "Cookies estritamente necessárias"<br>
-   - [x] E devo ver "Cookies Analíticos de Primeira Parte"<br>
-   - [x] E devo ver "Cookies de Desempenho e Cookies Funcionais"<br>
-   - [x] E devo ver "Cookies de Publicidade e Redes Sociais"<br>
+   - [x] Entao deve fechar a caixa de informacao<br>
+   - [x] E clico em configuracoes de cookie<br>
+   - [x] Entao devo ver o item de "Sua privacidade"<br>
+   - [x] Entao devo ver <br>
+         |-- Cookies estritamente necessárias<br>
+         |-- Cookies Analíticos de Primeira Parte<br>
+         |-- Cookies de Desempenho e Cookies Funcionais<br>
+         |-- Cookies de Publicidade e Redes Sociais<br>
+
 ---------------------------------------------------------------------------
 ### Caso de teste 2<br>
 Acessar o site da Accenture a mostrar o menu Serviços<br>
@@ -69,6 +73,7 @@ Clicar no serviço Cloud:<br>
    - [x] E clico no menu Serviços<br>
    - [x] E clico no item do menu Cloud<br>
    - [x] Então devo encontrar o título "Servicos de Cloud"<br>
+   
 ---------------------------------------------------------------------------
 ### Caso de teste 3<br>
 Acessar menu Carreiras da Accenture<br>
@@ -81,21 +86,33 @@ Acessar o menu Carreiras e submenu Vagas de Tecnologia<br>
    - [x] Então devo ver o destaque em "Carreiras em Tecnologia"<br>
 
 #### Cenário 6:<br>
-Procurando uma vaga:<br>
+Procurando uma vaga pela busca:<br>
    - [x] Dado que eu estou no site da Accenture<br>
+   - [x] E clico na lupa de pesquisa
    - [x] E digito no campo de busca "Desenvolvedor"<br>
    - [x] E clico no botão Procurar<br>
    - [x] Então devo encontrar Vagas para Programadores<br>
+
+#### Cenário 7:<br>
+Procurando uma vaga pelo menu:<br>
+   - [x] Dado que eu estou no site da Accenture<br>
+   - [x] E clico no menu carreiras<br>
+	- [x] E clico no item procure por vagas<br>
+	- [x]	E digito no campo para buscar "desenvolvedor"<br>
+	- [x]	E clico no botao buscar<br>
+	- [x]	Entao devo encontrar vagas para programadores pelo menu<br>
+	
 ---------------------------------------------------------------------------
 ### Caso de teste 4<br>
 Sobre a Accenture<br>
 
-#### Cenário 7:<br>
+#### Cenário 8:<br>
 Ver as caracteristicas da Accenture<br>
    - [x] Dado que eu estou no site da accenture<br>
    - [x] E clico no menu Sobre a Accenture<br>
    - [x] E clico no item do menu Sobre a Accenture<br>
    - [x] Então devo ver o destaque em "Nosso propósito"<br>
+
 ---------------------------------------------------------------------------
 ### Tecnologias utilizadas:<br>
 
