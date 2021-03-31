@@ -97,10 +97,10 @@ Procurando uma vaga pela busca:<br>
 Procurando uma vaga pelo menu:<br>
    - [x] Dado que eu estou no site da Accenture<br>
    - [x] E clico no menu carreiras<br>
-	- [x] E clico no item procure por vagas<br>
-	- [x]	E digito no campo para buscar "desenvolvedor"<br>
-	- [x]	E clico no botao buscar<br>
-	- [x]	Entao devo encontrar vagas para programadores pelo menu<br>
+   - [x] E clico no item procure por vagas<br>
+   - [x] E digito no campo para buscar "desenvolvedor"<br>
+   - [x] E clico no botao buscar<br>
+   - [x] Entao devo encontrar vagas para programadores pelo menu<br>
 	
 ---------------------------------------------------------------------------
 ### Caso de teste 4<br>
