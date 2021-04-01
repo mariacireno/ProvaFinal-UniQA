@@ -8,7 +8,6 @@
 - Maria Cireno<br>
 - Maria Natália<br>
 - Fernanda Monique<br>
-- Layane Bastos<br>
 - Jessica Cordeiro<br>
 - Graziela Franzoni<br>
 ---------------------------------------------------------------------------
